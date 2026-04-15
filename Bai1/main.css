@@ -1,0 +1,44 @@
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    padding: 10px;
+    background-color: aquamarine;
+    min-height: 20px;
+    cursor: pointer;
+    transition: 0,3;
+}
+.menu li {
+    text-decoration: none;
+}
+.menu li:hover {
+    background-color: yellow;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.menu li:active {
+    background-color: rgb(197, 194, 194);
+}
+
+.menu-doc {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 122, 241);padding: 0;
+    width: 250px;
+    cursor: pointer;
+}
+.menu-doc li {
+    line-height: 30px;
+    height: 40px;
+    border-bottom: solid;
+}
+.menu-doc li:hover {
+    background-color: rgb(66, 179, 255);
+    font-style: italic;
+}
+
+.menu-doc li:active {
+    background-color: rgb(141, 139, 139);
+}
