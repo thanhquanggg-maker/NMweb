@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    vertical-align: middle;
+}
+
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6, ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: red;
+}
+
+.prev:hover, .next:hover {
+    background-color: blue;
+}
+
+.dot {
+    display: inline-block;
+    width: 20px;
+    border-radius: 100%;
+    height: 20px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.dot:hover {
+    background-color: #555;
+}
+
+.dot.active {
+    background-color: #555;
+}
